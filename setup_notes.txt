@@ -1,0 +1,20 @@
+# # Setup web dev project
+# $django-admin startproject <project name>
+
+# # Initialize web server
+# $python manage.py runserver
+
+# # Create a new app
+# $python manage.py startapp <app name>
+
+# # Syncs settings of Django project with apps
+# $python manage.py makemigrations
+# $python manage.py migrate
+
+# # Create admin account
+# $python manage.py createsuperuser
+
+# # Start a shell with Django projects inherited
+# $python manage.py shell
+
+# # To clean up an existing app, remove files in <project>/migrations folder and sqlite database
